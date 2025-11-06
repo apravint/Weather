@@ -1,0 +1,7 @@
+{
+  "name": "Gemini Weather & Vision Studio",
+  "description": "An advanced application that provides weather forecasts, AI-powered summaries with TTS, and Gemini-powered image editing capabilities.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
