@@ -18,7 +18,9 @@ import {
   getWeatherSummary,
 } from '../services/geminiService';
 
-beforeEach(() => generateContent.mockReset());
+beforeEach(() => {
+  generateContent.mockReset();
+});
 
 describe('getStructuredWeatherData', () => {
   it('parses the JSON text returned by the model and asks for Celsius', async () => {
